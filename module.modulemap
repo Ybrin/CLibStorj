@@ -1,0 +1,5 @@
+module CLibStorj [system] {
+  header "/usr/local/include/storj.h"
+  link "storj"
+  export *
+}
