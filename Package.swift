@@ -4,5 +4,8 @@ import PackageDescription
 
 let package = Package(
     name: "CLibStorj",
-    pkgConfig: "libstorj"
+    pkgConfig: "libstorj",
+    targets: [
+        Target(name: "CLibStorj")
+    ],
 )
