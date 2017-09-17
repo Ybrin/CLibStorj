@@ -7,5 +7,5 @@ let package = Package(
     pkgConfig: "libstorj",
     targets: [
         Target(name: "CLibStorj")
-    ],
+    ]
 )
